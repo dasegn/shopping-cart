@@ -1,0 +1,107 @@
+{
+  "products":[
+     {
+        "id": 1,
+        "name":"MEN'S BETTER THAN NAKED JACKET",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image":"http://images.thenorthface.com/is/image/TheNorthFace/236x204_CLR/mens-better-than-naked-jacket-AVMH_LC9_hero.png",
+        "header-top-right-text":"Shop All",
+        "header-top-left-text":"Men's",
+        "url":"http://www.thenorthface.com/catalog/sc-gear/men-39-s-better-than-naked-8482-jacket.html",
+        "header-top-right-url":"http://www.thenorthface.com/en_US/shop-mens/",
+        "cta-text":"Shop Now",
+        "price": "33.62"
+     },
+     {
+        "id": 2,
+        "name":"WOMEN'S BETTER THAN NAKED JACKET",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image":"http://images.thenorthface.com/is/image/TheNorthFace/236x204_CLR/womens-better-than-naked-jacket-AVKL_NN4_hero.png",
+        "header-top-right-text":"Shop All",
+        "header-top-left-text":"Women's",
+        "url":"http://www.thenorthface.com/catalog/sc-gear/women-39-s-better-than-naked-8482-jacket.html",
+        "header-top-right-url":"http://www.thenorthface.com/en_US/shop-womens/",
+        "cta-text":"Shop Now",
+        "price": "33.62"
+     },
+     {
+        "id": 3,
+        "name":"WOMEN'S SINGLE-TRACK SHOE",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image":"http://images.thenorthface.com/is/image/TheNorthFace/236x204_CLR/womens-single-track-shoe-ALQF_JM3_hero.png",
+        "header-top-right-text":"Shop All",
+        "header-top-left-text":"Running Shoes",
+        "url":"http://www.thenorthface.com/catalog/sc-gear/womens-single-track.html",
+        "header-top-right-url":"http://www.thenorthface.com/webapp/wcs/stores/servlet/TNFSearchResult?langId=-1&amp;storeId=207&amp;catalogId=10201&amp;searchTerm=running%20shoes",
+        "cta-text":"Shop Now",
+        "price": "33.62"
+     },
+     {
+        "id": 4,
+        "name":"Enduro Boa Hydration Pack",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image":"http://images.thenorthface.com/is/image/TheNorthFace/236x204_CLR/enduro-boa-hydration-pack-AJQZ_JK3_hero.png",
+        "header-top-right-text":"Shop All",
+        "header-top-left-text":"Equipment",
+        "url":"http://www.thenorthface.com/catalog/sc-gear/enduro-boa.html",
+        "header-top-right-url":"http://www.thenorthface.com/en_US/shop-equipment/",
+        "cta-text":"Shop Now",
+        "price": "33.62"
+     },
+     {
+        "id": 5,
+        "name":"MEN'S BETTER THAN NAKED JACKET",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image":"http://images.thenorthface.com/is/image/TheNorthFace/236x204_CLR/mens-better-than-naked-jacket-AVMH_LC9_hero.png",
+        "header-top-right-text":"Shop All",
+        "header-top-left-text":"Men's",
+        "url":"http://www.thenorthface.com/catalog/sc-gear/men-39-s-better-than-naked-8482-jacket.html",
+        "header-top-right-url":"http://www.thenorthface.com/en_US/shop-mens/",
+        "cta-text":"Shop Now",
+        "price": "33.62"
+     },
+     {
+        "id": 6,
+        "name":"WOMEN'S BETTER THAN NAKED JACKET",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image":"http://images.thenorthface.com/is/image/TheNorthFace/236x204_CLR/womens-better-than-naked-jacket-AVKL_NN4_hero.png",
+        "header-top-right-text":"Shop All",
+        "header-top-left-text":"Women's",
+        "url":"http://www.thenorthface.com/catalog/sc-gear/women-39-s-better-than-naked-8482-jacket.html",
+        "header-top-right-url":"http://www.thenorthface.com/en_US/shop-womens/",
+        "cta-text":"Shop Now",
+        "price": "33.62"
+     },
+     {
+        "id": 7,
+        "name":"WOMEN'S SINGLE-TRACK SHOE",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image":"http://images.thenorthface.com/is/image/TheNorthFace/236x204_CLR/womens-single-track-shoe-ALQF_JM3_hero.png",
+        "header-top-right-text":"Shop All",
+        "header-top-left-text":"Running Shoes",
+        "url":"http://www.thenorthface.com/catalog/sc-gear/womens-single-track.html",
+        "header-top-right-url":"http://www.thenorthface.com/webapp/wcs/stores/servlet/TNFSearchResult?langId=-1&amp;storeId=207&amp;catalogId=10201&amp;searchTerm=running%20shoes",
+        "cta-text":"Shop Now",
+        "price": "33.62"
+     },
+     {
+        "id": 8,
+        "name":"Enduro Boa Hydration Pack",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "image":"http://images.thenorthface.com/is/image/TheNorthFace/236x204_CLR/enduro-boa-hydration-pack-AJQZ_JK3_hero.png",
+        "header-top-right-text":"Shop All",
+        "header-top-left-text":"Equipment",
+        "url":"http://www.thenorthface.com/catalog/sc-gear/enduro-boa.html",
+        "header-top-right-url":"http://www.thenorthface.com/en_US/shop-equipment/",
+        "cta-text":"Shop Now",
+        "price": "33.62"
+     }
+  ],
+  "profile": {
+    "id": 1,
+    "email": "admin@localhost.com",
+    "lastName": "Site",
+    "firstName": "Admin",
+    "password": "admin123"
+  }
+}

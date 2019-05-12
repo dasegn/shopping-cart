@@ -1,0 +1,91 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div *ngIf="cart.length; else elseCart" class="card">
+                    <div class="card-header card-header-danger">
+                        <h4 class="card-title ">Cart</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead class=" text-primary">
+                                    <th class="text-center">
+                                        Product Id
+                                    </th>
+                                    <th>
+                                        Product
+                                    </th>
+                                    <th class="text-center">
+                                        Quantity
+                                    </th>
+                                    <th class="text-center">
+                                        Price
+                                    </th>
+                                    <th>
+                                        Actions
+                                    </th>
+                                </thead>
+                                <tbody>
+                                    <tr *ngFor="let item of this.cart">
+                                        <td class="text-center">
+                                          {{ item?.id }}
+                                        </td>
+                                        <td>
+                                            <a [routerLink]="['/product', item?.id]">
+                                              <h4>{{ item?.name }}</h4>
+                                              <img src="{{ item?.image }}" alt="" class="img-fluid float-left">
+                                            </a>
+                                        </td>
+                                        <td class="text-center">
+                                            {{ item?.quantity }}
+                                        </td>
+                                        <td class="text-danger text-center">
+                                            {{ item?.getPrice() | currency }}
+                                        </td>
+                                        <td>
+                                            <button mat-raised-button class="btn btn-danger btn-sm" (click)="removeProduct(item?.id)">
+                                              <i class="material-icons">remove_shopping_cart</i>
+                                              Delete
+                                            </button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <hr/>
+                    <div class="card-footer">
+                        <hr/>
+                        <div class="btn-group float-left">
+                            <button mat-raised-button class="btn btn-warning btn-sm" (click)="removeAllProducts()">
+                                <i class="material-icons">delete</i>
+                                Remove items
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-12 text-right">
+                        <h3>Total ({{ totalItems }} items):
+                          <span class="text-danger">{{ total | currency }}</span></h3>
+                    </div>
+                    <div class="card-footer">
+                        <hr/>
+                        <div class="btn-group float-left">
+                          <button mat-raised-button class="btn btn-success">
+                              <i class="material-icons">payment</i>
+                              Proceed to checkout
+                          </button>
+                        </div>
+                    </div>
+                </div>
+                <ng-template #elseCart>
+                  <div class="card">
+                      <div class="card-body">
+                        Your shopping cart is empty.
+                      </div>
+                  </div>
+                </ng-template>
+            </div>
+        </div>
+    </div>
+  </div>

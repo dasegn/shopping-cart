@@ -1,0 +1,40 @@
+<div class="main-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header card-header-danger">
+                        <h4 class="card-title ">{{ product?.name }}</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                          <div class="col-md-6 text-center">
+                            <img src="{{ product?.image }}" alt="" class="img-fluid">
+                          </div>
+                          <div class="col-md-6">
+                              <h4>Price: </h4>
+                              <h2>${{ product?.price }}</h2>
+                              <hr/>
+                              <p><button mat-raised-button class="btn btn-primary" (click)="addToCart()">
+                                  <i class="material-icons">add_shopping_cart</i>
+                                  Add to cart
+                                </button></p>
+                          </div>
+                        </div>
+                        <hr/>
+                        <div class="col-md-12">
+                          <h4>About the product</h4>
+                          <p>{{ product?.description }}</p>
+                        </div>
+                        <div class="col-md-12">
+                            <button mat-raised-button class="btn btn-default btn-sm" (click)="backToStore()">
+                              Back to store
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

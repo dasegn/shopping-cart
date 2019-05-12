@@ -17,6 +17,10 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@shop-cart/*": ["./src/app/*"],
+      "@shop-cart-env/*": ["./src/environments/*"],
+    }
   }
 }

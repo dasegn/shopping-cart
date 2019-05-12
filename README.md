@@ -2,26 +2,40 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.7.
 
-## Development server
+## Get started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Clone the repo
 
-## Code scaffolding
+```shell
+git clone https://github.com/bryanforbes/intern-angular
+cd intern-angular
+```
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Install npm packages
 
-## Build
+Install the `npm` packages described in the `package.json` and verify that it works:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+```shell
+npm install
+```
 
-## Running unit tests
+### Install json-server
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Install the `jsn-server` package for backend fake data and verify that it works:
 
-## Running end-to-end tests
+```shell
+npm install -g json-server
+json-server --watch db.json
+```
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+NOTE: The path for the db.json file in the project is `src/app/data/db.json`
 
-## Further help
+### Start the development server and proxy
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Run `npm run start:proxy` for a dev server. The app will automatically reload if you change any of the source files. 
+
+`json-server` is running at localhost:3000 serving all the required fake api’s, but the angular dev server also start a proxy for json-server at http://localhost:4200/api.
+
+### Check the app
+
+Navigate to `http://localhost:4200/`.

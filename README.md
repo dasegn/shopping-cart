@@ -69,4 +69,3 @@ bootstrap-material-design | 4.1.1
 bootstrap-notify | 3.1.3
 jquery | 3.4.1
 rxjs | 6.3.3
-
